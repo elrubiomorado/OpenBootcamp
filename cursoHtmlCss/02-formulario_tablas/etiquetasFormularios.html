@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas Formularios</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <!--Etiqueta para Crear un formulario-->
+    <form action="#" method="get"><!--Actions sirve para meter la url de donde queremos enviar los resultados--><!--Metodos de envio get y post, get para navegador y post cuando se use un elemento externo-->
+        <div>
+            <label for="user">Nombre Usauario:</label>
+            <input type="text" name="user" id="user" required>
+        </div>
+        
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" required name="password">
+        </div>
+        
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+            <label for="numero">numero</label>
+            <input type="number" name="numero" id="numero" min="0">
+        </div>
+        <div>
+            <label for="fecha">fecha</label>
+            <input type="date" name="fecha" id="fecha">
+        </div>
+        <div>
+            <label for="area">Comentarios:</label>
+            <textarea name="area" id="area" cols="30" rows="10" readonly>Esto solo se puede leer</textarea>
+        </div>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
