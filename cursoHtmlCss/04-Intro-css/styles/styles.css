@@ -1,0 +1,40 @@
+ 
+body{
+    /* Color de fondo a toda la pagina */
+    background-color: hotpink;
+}
+h1{
+    /* Asi podemos asignar los colores */
+    color: red;
+    color: rgb(255, 0, 0);
+    color: #ff0000;
+    color: hsl(0, 100%, 50%);
+    color: hwb(0 0% 0%);
+    color: rgba(255, 0, 0,1);
+}
+p{
+    /* Color a las letras de los parrafos */
+    color: blue;
+    /* tamaño de fuente */
+    font-size: 16px;
+}
+/* 
+Selectores en css
+. para clases
+# para ids
+* todos los elementos
+separados por , podemos afectar diferentes selectores con una misma instruccion
+etiqueta para todas las etiquetas llamadas asi
+*/
+
+.azul{
+    color: blue;
+}
+#rojo{
+    color: red;
+}
+/* Podemos ser mas especificos de la siguiente manera */
+h3.azul{
+    text-transform: uppercase;
+    color: red;
+}
