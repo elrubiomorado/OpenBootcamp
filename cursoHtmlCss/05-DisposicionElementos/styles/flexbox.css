@@ -1,0 +1,33 @@
+.flex{
+    /*Sirve para posicionar elementos*/
+    display: flex;
+    /*Cambia la direccion de los objetos de linea a columna, o los cambia a la posicion contraria con el reverse, al usar una direccion diferente el justify-content y el aligh-items cambian de la posicion de x a y y de y a x*/
+    flex-direction: column;
+    background-color: yellow;
+    height: 300px;
+    /*Posiciona en el eje de las x los elementos hijos*/
+    justify-content: space-between;
+    /*Con wrap hace que los elementos salten de linea cuando ya no tengan espacio en la pantalla, cuando esta en no-wrap no cambian de linea y se hacen mas pequeños o la separacion disminuye*/
+    flex-wrap: nowrap;
+    /*Posiciona los elementos en el eje de las y*/
+    align-items: center;
+
+}
+.contenido-1{
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    border: 1px solid blue;
+}
+.contenido-2{
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    border: 1px solid blue;
+}
+.contenido-3{
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    border: 1px solid blue;
+}

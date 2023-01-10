@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>posicionamiento</title>
+    <link rel="stylesheet" href="./styles/posicionamiento.css">
+</head>
+<body>
+    <h1>Posicionamiento en HTML</h1>
+    <ul>
+        <li>Static</li>
+        <dd>No se puede modificar su posicion mediante float, es la posicion por defecto</dd>
+        <li>Relative</li>
+        <dd>Se relaciona en relacion al posicionamiento original, en relacion a su posicion original</dd>
+        <li>Fixed</li>
+        <dd>Se posiciona en un lugar y hay se queda, aunque nos movamos hacia alguna direccion en la pagina, siempre estara este elemento en su lugar de la pantalla</dd>
+        <li>Absolute</li>
+        <dd>Es un posicionamiento en el que se posiciona en relacion a su padre relativo, es como en fixed pero con su padre en lugar de la pantalla</dd>
+        <li>Sticky</li>
+        <dd>Al hacer scroll se modifica su posicionamiento de relativo a fixed</dd>
+    </ul>
+    <div class="static">
+        Soy un div estático (static)
+    </div>
+    <div class="relative">
+        Soy un div relativo
+    </div>
+    <div class="fixed">
+        soy un div fixed
+    </div>
+    <div class="sticky">
+        soy un div sticky
+    </div>
+    <div class="container">
+        <div class="absolute">
+            soy un div absolute
+        </div>
+    </div>
+</body>
+</html>
