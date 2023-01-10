@@ -1,0 +1,10 @@
+.texto::before{
+    content: "Pasa por encima";
+}
+.button:hover{
+    color: white;
+    background-color: greenyellow;
+}
+.button .texto:hover::after{
+    content: "Hecho!";
+}

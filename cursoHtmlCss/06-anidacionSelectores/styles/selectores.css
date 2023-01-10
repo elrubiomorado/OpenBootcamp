@@ -1,0 +1,9 @@
+/*Seleccionamos todos los parrafor dentro de la clase contenedor, sirve para ser mas precisos con la seleccion*/
+.contenedor p{
+    color: green;
+}
+
+.contenedor #boton-contenedor{
+    background-color: yellow;
+    border-radius: 5px;
+}

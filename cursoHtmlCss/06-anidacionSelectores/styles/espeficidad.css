@@ -1,0 +1,35 @@
+/*Los estilos se aplican en cascada, asi que los de mas abajo tendran mas prioridad ya que sustituiran al que tengan arriba, esto dependiendo de con que se esta haciendo esto, ya que los elementos tiene distinta prioridad
+Prioridades del mas alto al mas bajo
+    id
+    clase
+    elemento
+
+*/
+h1{
+    color: blue;
+}
+/*Este sustituira al de arriba*/
+h1{
+    color: green;
+}
+/*Esto sustituye a todo, esta por arriba de todo*/
+#h1-id{
+    color: blueviolet;
+}
+
+/*Este sustituye a todo excepto al id*/
+.h1-clase{
+    color: aqua;
+}
+p{
+    color: red;
+}
+
+/*Podemos aumentar la especifidad aumentado los elementos por como se llama*/
+h1#h1-id.h1-clase{
+    color: hotpink;
+}
+/*La etiqueta para tener mas espcifica es usando important, pero no es buena practica utilizarlo*/
+h1{
+    color: palegreen !important;
+}
