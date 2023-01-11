@@ -1,0 +1,21 @@
+.contenedor{
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(3, auto);
+    /* grid-template-columns: 1fr 1fr 1fr 2fr;
+    grid-template-rows: 2fr 4fr 10fr;
+    grid-template-areas: "head head head" 
+                         "main main aside"
+                         "footer footer footer"; */
+
+}
+.item{
+    background-color: aqua;
+    padding: 0.25rem;
+    border: solid 1px blue;
+    font-size: 2rem;
+}
+.item1{
+    grid-area: 1 /2 / 5 /4;
+
+}

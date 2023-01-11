@@ -1,0 +1,27 @@
+.contenedor{
+    min-height: 200px;
+    background-color: red;
+    display: flex;
+
+}
+.izquierda{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 0.25rem;
+    align-items: center;
+}
+@media (max-width:640px) {
+    .izquierda{
+        flex-direction: column-reverse;
+    }
+}
+.elemento{
+    background-color: pink;
+    padding: 5px 20px;
+}
+.derecha{
+    background-color: yellow;
+    flex-grow: 1;
+}

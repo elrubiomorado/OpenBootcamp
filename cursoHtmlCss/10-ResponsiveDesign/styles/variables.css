@@ -1,0 +1,15 @@
+:root{
+    --color-principal: rgb(132, 255, 0);
+    --ancho-principal:250px
+}
+.contenedor{
+    background-color: antiquewhite;
+    max-width: var(--ancho-principal);
+    padding: 1rem;
+}
+h1{
+    color: var(--color-principal);
+}
+.footer{
+    color: var(--color-principal);
+}
