@@ -1,0 +1,12 @@
+/*Funciones de sass*/
+@use "sass:string";
+
+@debug "hola";
+
+@debug string.index("Helvetica Neue lorem", "lorem");
+
+$string: "Helvetica";
+$newString: string.insert($string, "Bold", 10);
+
+@debug $newString;
+@debug string.length($newString);

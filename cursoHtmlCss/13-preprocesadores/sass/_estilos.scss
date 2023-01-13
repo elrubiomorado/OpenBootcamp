@@ -1,0 +1,38 @@
+@use "mixins" as mi;
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    background-color: azure;
+    min-height: 100vh;
+    padding: 0.5rem;
+}
+
+h1{
+    @include mi.formato-texto(red);
+}
+p{
+    @include mi.formato-texto(green);
+}
+
+/*Anidacion de elementos*/
+.listado{
+    width: 50rem;
+    background-color: aquamarine;
+    padding: 0.5rem;
+    ul{
+        margin: 0 0.5rem;
+        li{
+            list-style: none;
+            font-size: 2rem;
+            &:hover{
+                color: white;
+            }
+        }
+
+    }
+}
+

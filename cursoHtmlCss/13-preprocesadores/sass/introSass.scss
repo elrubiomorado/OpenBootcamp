@@ -1,0 +1,13 @@
+/*Importar elementos*/
+/*componentes*/
+@use "componentes" as comp;
+
+/*Mixins*/
+@use "mixins" as mi;
+
+/*Estilos*/
+@use "estilos" as es;
+
+/*El import puede que ya este un poco obsoleto, asi que usaremos otras funcionalidades*/
+/*Otros*/
+@use "buitin";

@@ -1,0 +1,19 @@
+.btn{
+    border: none;
+    padding: 0.25rem 0.5rem;
+    color: #2b2b2b;
+    background-color: red;
+    &:hover{
+        background-color: #2b2b2b;
+        color: red;
+    }
+
+}
+
+/*Extender un estilo*/
+.btn-2{
+    @extend .btn;
+    margin: 0.5rem;
+    border-radius: 0.25rem;
+    padding: 1rem;
+}

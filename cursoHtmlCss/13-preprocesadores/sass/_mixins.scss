@@ -1,0 +1,12 @@
+/*Variables*/
+$text-color:#e1e1e1;
+$anchura-elementos:50rem;
+
+
+/*Mixin funciones de codigo css*/
+@mixin formato-texto($bg-color:#f1f1f1){
+    color:$text-color;
+    width: $anchura-elementos;
+    text-transform: uppercase;
+    background-color: $bg-color;
+}
