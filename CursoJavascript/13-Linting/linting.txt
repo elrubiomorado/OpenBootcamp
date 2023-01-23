@@ -1,0 +1,4 @@
+Que es linting?
+linting es una metodoligia de mantener todo el codigo limpio y homogeneo.
+
+ESLint es una libreria que nos ayuda a tener esta metodoligia.
