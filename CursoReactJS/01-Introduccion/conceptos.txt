@@ -1,0 +1,15 @@
+Que es un SPA?
+Una web SPA (single page application) es una forma de desarrollo web en la que la pagina esta contenida en un unico archivo html.
+
+Mientras navegamos por la web, se irán solicitando los contenidos al servidor.
+
+De esta forma se mejoran los tiempos de respuesta y por tanto, la experiencia de usuario.
+
+
+Que es reactJS?
+reactJS es una libreria de javascript para crear interfaces de usuario.
+
+Asi es como se define desde su pagina oficial.
+
+Esta es una libreria, que no es framework, fue creada por Facebook en 2013, y sigue mantenida por Facebook.
+
